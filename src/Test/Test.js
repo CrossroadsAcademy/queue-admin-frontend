@@ -1,5 +1,6 @@
 import classes from "./Test.module.css";
 import { LogoutButton } from "../UI/Button/LogoutButton";
+import { Dashboardcard } from "../UI/Card/Dashboardcard";
 
 const Test = () => {
   return (
@@ -8,6 +9,7 @@ const Test = () => {
         <h1>Test space</h1>
         {/* Write your code here */}
         <LogoutButton/>
+        <Dashboardcard></Dashboardcard>
       </div>
     </div>
   );

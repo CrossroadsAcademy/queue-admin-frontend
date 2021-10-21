@@ -1,0 +1,12 @@
+.DashboardCard{
+    background: #F9F8F3;
+border-radius: 30px;
+  
+    width: 327px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
