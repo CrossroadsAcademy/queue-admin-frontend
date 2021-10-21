@@ -9,3 +9,38 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.card {
+    margin: 7% 5% 2%;
+    background: #F6F4F5;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 14rem;
+    height: 17rem;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topSection{
+    display: flex;
+    align-items: center;
+}
+.img {
+    margin:auto 0;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+}
+.bottomSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.phone{
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+}

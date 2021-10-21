@@ -1,15 +1,16 @@
-import classes from "./Test.module.css";
-
-const Test = () => {
+import classes from "./Test.module.css"
+const StaffCard = (props) => {
   return (
-    <div className={classes.container}>
-      <div className={classes["test-space"]}>
-        <h1>Test space</h1>
-        {/* Write your code here */}
-        
+     <div className={classes.card}> 
+          <div className={classes.topSection}>
+            <img className={classes.img} src={props.img}/>
+          </div>
+          <div className={classes.bottomSection}>
+            <h2>{props.name}</h2>
+            <p className={classes.phone}>{props.phone}</p>
+          </div>
       </div>
-    </div>
   );
 };
 
-export default Test;
+export default StaffCard;
