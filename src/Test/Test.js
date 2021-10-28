@@ -1,4 +1,5 @@
 import classes from "./Test.module.css";
+import HaltQueueButton from "./UI/HaltQueueButton/HaltQueueButton";
 import Button from "../UI/Button/Button";
 import Card from "../UI/Card/Card";
 
