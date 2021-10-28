@@ -1,5 +1,5 @@
 import classes from "./Test.module.css";
-import HaltQueueButton from "./UI/HaltQueueButton";
+import HaltQueueButton from "./UI/HaltQueueButton/HaltQueueButton";
 
 const Test = () => {
   return (
