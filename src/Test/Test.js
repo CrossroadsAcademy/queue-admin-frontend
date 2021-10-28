@@ -1,5 +1,6 @@
 import classes from "./Test.module.css";
 import HaltQueueButton from "./UI/HaltQueueButton/HaltQueueButton";
+import ResumeQueueButton from "./UI/ResumeQueueButton/ResumeQueueButton";
 
 const Test = () => {
   return (
@@ -7,7 +8,7 @@ const Test = () => {
       <div className={classes["test-space"]}>
         <h1>Test space</h1>
         {/* Write your code here */}
-        <HaltQueueButton />
+        <ResumeQueueButton/>
         
       </div>
     </div>
