@@ -1,7 +1,4 @@
-import StaffCard from "./StaffCard/StaffCard";
 import classes from "./Test.module.css";
-
-
 
 const Test = () => {
   return (
