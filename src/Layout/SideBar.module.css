@@ -1,0 +1,47 @@
+.SideBar{
+    width:250px;
+    height: 100vh;
+    background-color: #F6F4F5;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+.navigation{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.SideBarItem{
+    color: #212121;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.SideBarIcon{
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    
+
+}
+.img{
+    width: 80px;
+    height: 80px;
+    background-color: #212121;
+    border-radius: 10px;
+}
