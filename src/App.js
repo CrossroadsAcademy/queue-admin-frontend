@@ -1,8 +1,9 @@
 import './App.css';
-
+import ChangePassword from './UI/Forms/ChangePassword';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-    <h1>queue app !</h1>
+    <ChangePassword />
   );
 }
 
