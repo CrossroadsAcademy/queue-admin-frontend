@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    margin: 7% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9F8F3;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+}
+
+.cardTitle {
+    font-size: x-large;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.inputBox {
+    position: relative;
+    background: #F6F6F6;
+    border-radius: 20px;
+    color: rgb(145, 137, 137);
+    width: 100%;
+    
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 60px 15px 60px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.formGroup {
+    padding: 0 5%;
+}
+
+.btn1 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 10%;
+    transition: all 100ms ease-in;
+}
+.btn1:hover{
+    background-color: #185858;
+}
