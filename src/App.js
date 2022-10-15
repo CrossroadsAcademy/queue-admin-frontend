@@ -1,9 +1,9 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Sidebar from './UI/Sidebar/Sidebar';
+import Test from './Test/Test';
 function App() {
   return (
-    <Sidebar />
+    <Test />
   );
 }
 
