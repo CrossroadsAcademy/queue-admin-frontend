@@ -16,3 +16,25 @@
 .heading h6 {
     font-size: 20px;
 }
+
+.daysWrapper {
+    
+}
+
+.days{
+    width: 6rem;
+    height: 3rem;
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.days:hover{
+    background-color: #008080;
+    color: #fff;
+    transition-duration: .5s;
+}
