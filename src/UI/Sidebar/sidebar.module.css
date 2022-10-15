@@ -3,8 +3,11 @@
     height: 100vh;
     background-color: #F6F4F5;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
 }
 
 .listItem{
@@ -12,4 +15,11 @@
     color: #212121;
     font-size: 20px;
     font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+
+.listItem :hover{
+    color: #008080;
+    font-weight: 600;
 }
