@@ -1,0 +1,11 @@
+.mainWrapper{
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid #111;
+    border-radius: 20px;
+}
+.heading {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid #111;
+}
