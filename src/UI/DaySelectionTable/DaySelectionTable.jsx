@@ -1,17 +1,55 @@
-import React from 'react'
-import classes from './dayselection.module.css'
+import React from "react";
+import classes from "./dayselection.module.css";
 
 const DaySelectionTable = () => {
+  const daysArray = [
+    {
+      id: 1,
+      day: "Sunday",
+    },
+    {
+      id: 2,
+      day: "Monday",
+    },
+    {
+      id: 3,
+      day: "Tuesday",
+    },
+    {
+      id: 4,
+      day: "Wednessday",
+    },
+    {
+      id: 5,
+      day: "Thursday",
+    },
+    {
+      id: 6,
+      day: "Friday",
+    },
+    {
+      id: 7,
+      day: "Saturday",
+    },
+    {
+      id: 8,
+      day: "Everyday",
+    },
+  ];
   return (
     <div className={classes.mainWrapper}>
-        <div className={classes.heading}>
-            <h6>Working Days</h6>
-        </div>
-        <div className={classes.daysWrapper}>
-            <div className={classes.days}>Sunday</div>
-        </div>
+      <div className={classes.heading}>
+        <h6>Working Days</h6>
+      </div>
+      <div className={classes.daysWrapper}>
+        {
+            daysArray.map((day) => (
+                <div className={classes.days}>{day.day}</div>
+            ))
+        }
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default DaySelectionTable
+export default DaySelectionTable;

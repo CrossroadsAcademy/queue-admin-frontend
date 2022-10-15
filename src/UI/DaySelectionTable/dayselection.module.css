@@ -1,6 +1,6 @@
 .mainWrapper{
     width: 30rem;
-    height: 30rem;
+    height: 20rem;
     border: 1px solid #111;
     border-radius: 20px;
 }
@@ -18,11 +18,15 @@
 }
 
 .daysWrapper {
-    
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
 }
 
 .days{
-    width: 6rem;
+    width: 8rem;
     height: 3rem;
     background-color: #F6F6F6;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
@@ -31,6 +35,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.days:last-child{
+    width: 17rem;
 }
 
 .days:hover{
