@@ -1,7 +1,11 @@
 import React from "react";
+import { useState } from "react";
 import classes from "./dayselection.module.css";
 
 const DaySelectionTable = () => {
+
+    const [selectedDays, setselectedDays] = useState([])
+
   const daysArray = [
     {
       id: 1,
@@ -36,6 +40,17 @@ const DaySelectionTable = () => {
       day: "Everyday",
     },
   ];
+
+  const handleClick = (day) => {
+    if(selectedDays.includes(day)){
+        setselectedDays(selectedDays.filter((id) => id !== day))
+    }else{
+        setselectedDays([...selectedDays , day])
+    }
+  }
+
+  console.log(selectedDays);
+
   return (
     <div className={classes.mainWrapper}>
       <div className={classes.heading}>
@@ -44,7 +59,7 @@ const DaySelectionTable = () => {
       <div className={classes.daysWrapper}>
         {
             daysArray.map((day) => (
-                <div className={classes.days}>{day.day}</div>
+                <div onClick={() => handleClick(day.id)} className={classes.days}>{day.day}</div>
             ))
         }
       </div>
