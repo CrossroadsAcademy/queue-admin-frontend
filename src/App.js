@@ -1,9 +1,9 @@
 import './App.css';
-import ChangePassword from './UI/Forms/ChangePassword';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Sidebar from './UI/Sidebar/Sidebar';
 function App() {
   return (
-    <ChangePassword />
+    <Sidebar />
   );
 }
 
