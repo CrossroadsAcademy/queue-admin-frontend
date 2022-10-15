@@ -8,7 +8,6 @@ const Test = () => {
       <div className={classes["test-space"]}>
         <h1>Test space</h1>
         {/* Write your code here */}
-          <DaySelectionTable />
       </div>
     </div>
   );
