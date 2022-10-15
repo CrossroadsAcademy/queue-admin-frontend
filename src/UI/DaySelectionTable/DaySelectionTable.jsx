@@ -3,8 +3,7 @@ import { useState } from "react";
 import classes from "./dayselection.module.css";
 
 const DaySelectionTable = () => {
-
-    const [selectedDays, setselectedDays] = useState([])
+  const [selectedDays, setselectedDays] = useState([]);
 
   const daysArray = [
     {
@@ -42,14 +41,12 @@ const DaySelectionTable = () => {
   ];
 
   const handleClick = (day) => {
-    if(selectedDays.includes(day)){
-        setselectedDays(selectedDays.filter((id) => id !== day))
-    }else{
-        setselectedDays([...selectedDays , day])
+    if (selectedDays.includes(day)) {
+      setselectedDays(selectedDays.filter((id) => id !== day));
+    } else {
+      setselectedDays([...selectedDays, day]);
     }
-  }
-
-  console.log(selectedDays);
+  };
 
   return (
     <div className={classes.mainWrapper}>
@@ -57,11 +54,16 @@ const DaySelectionTable = () => {
         <h6>Working Days</h6>
       </div>
       <div className={classes.daysWrapper}>
-        {
-            daysArray.map((day) => (
-                <div onClick={() => handleClick(day.id)} className={classes.days}>{day.day}</div>
-            ))
-        }
+        {daysArray.map((day) => (
+          <div
+            onClick={() => handleClick(day.id)}
+            className={`${classes.days} ${
+              selectedDays.includes(day.id) && classes.active
+            }`}
+          >
+            {day.day}
+          </div>
+        ))}
       </div>
     </div>
   );

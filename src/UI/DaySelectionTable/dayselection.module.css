@@ -46,3 +46,8 @@
     color: #fff;
     transition-duration: .5s;
 }
+
+.active{
+    background-color: #008080;
+    color: #fff;
+}
