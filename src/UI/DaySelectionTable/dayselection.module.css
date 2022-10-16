@@ -1,0 +1,53 @@
+.mainWrapper{
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid #111;
+    border-radius: 20px;
+}
+.heading {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h6 {
+    font-size: 20px;
+}
+
+.daysWrapper {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.days{
+    width: 8rem;
+    height: 3rem;
+    background-color: #F6F6F6;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.days:last-child{
+    width: 17rem;
+}
+
+.days:hover{
+    background-color: #008080;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+.active{
+    background-color: #008080;
+    color: #fff;
+}
