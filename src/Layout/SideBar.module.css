@@ -1,7 +1,7 @@
 .SideBar{
     width:250px;
     height: 100vh;
-    background-color: #F6F4F5;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
