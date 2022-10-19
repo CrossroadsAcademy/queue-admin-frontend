@@ -58,7 +58,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: #008080;
+    background-color: var(--primary-color);
     color: #fff;
     padding: 10px;
     border-radius: 15px;

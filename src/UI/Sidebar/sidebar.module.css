@@ -20,11 +20,11 @@
 }
 
 .listItem :hover{
-    color: #008080;
+    color: var(--primary-color);
     font-weight: 600;
 }
 
 .active{
-    color: #008080;
+    color: var(--primary-color);
     font-weight: 600;
 }
