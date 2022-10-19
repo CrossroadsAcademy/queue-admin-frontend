@@ -1,5 +1,3 @@
-
-import DaySelectionTable from "../UI/DaySelectionTable/DaySelectionTable";
 import classes from "./Test.module.css";
 
 const Test = () => {

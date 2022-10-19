@@ -1,0 +1,15 @@
+:root {
+    /* Main colours */
+    --primary-color : #008080;
+    --secondary-color : #F6F4F5;
+    
+    /* Text colors */
+    --white-text-color : #fff;
+    --dark-text-color : #212121;
+    --light-text-color : #8B8B8B;
+
+    /* Actions colors */
+    --success-color : #2AAF6F;
+    --danger-color : #C34848;
+    --info-color : #4F83A0;
+}
