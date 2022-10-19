@@ -43,11 +43,11 @@
 
 .days:hover{
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--white-text-color);
     transition-duration: .5s;
 }
 
 .active{
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--white-text-color);
 }

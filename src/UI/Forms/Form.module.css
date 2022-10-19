@@ -59,7 +59,7 @@
     display: flex;
     align-items: center;
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--white-text-color);
     padding: 10px;
     border-radius: 15px;
     outline: none;

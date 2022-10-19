@@ -1,5 +1,5 @@
 .ResumeQueueButton{
-    color: #fff;
+    color: var(--white-text-color);
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: 10px;
