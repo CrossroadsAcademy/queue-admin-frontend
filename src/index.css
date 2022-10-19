@@ -22,5 +22,5 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #212121;
+  color: var(--dark-text-color);
 }
