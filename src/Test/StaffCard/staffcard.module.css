@@ -1,7 +1,7 @@
 .cardWrapper{
     width: 14rem;
     height: 16rem;
-    background-color: #F6F4F5;
+    background-color: var(--secondary-color);
     border-radius: 20px;
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.25);
     display: flex;

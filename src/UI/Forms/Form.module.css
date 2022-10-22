@@ -58,8 +58,8 @@
     margin: auto;
     display: flex;
     align-items: center;
-    background-color: #008080;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-text-color);
     padding: 10px;
     border-radius: 15px;
     outline: none;

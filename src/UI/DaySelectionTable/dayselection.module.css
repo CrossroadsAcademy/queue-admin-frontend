@@ -42,12 +42,12 @@
 }
 
 .days:hover{
-    background-color: #008080;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-text-color);
     transition-duration: .5s;
 }
 
 .active{
-    background-color: #008080;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--white-text-color);
 }

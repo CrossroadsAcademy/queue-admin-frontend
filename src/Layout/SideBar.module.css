@@ -1,7 +1,7 @@
 .SideBar{
     width:250px;
     height: 100vh;
-    background-color: #F6F4F5;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -19,7 +19,7 @@ a{
     height: 300px;
 }
 .SideBarItem{
-    color: #212121;
+    color: var(--dark-text-color);
     font-size: 23px;
     display: flex;
     align-items: center;
@@ -42,6 +42,6 @@ a{
 .img{
     width: 80px;
     height: 80px;
-    background-color: #212121;
+    background-color: var(--dark-text-color);
     border-radius: 10px;
 }
