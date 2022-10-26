@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './HaltQueueButton.module.css';
-import { FaGithubAlt, GrHalt } from 'react-icons/fa';
 import PanToolOutlinedIcon from '@mui/icons-material/PanToolOutlined';
 
 
