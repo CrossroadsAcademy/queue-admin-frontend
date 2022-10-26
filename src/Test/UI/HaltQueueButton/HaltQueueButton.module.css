@@ -1,0 +1,28 @@
+
+.HaltQueueButton{
+box-sizing: border-box;
+width: 391px;
+height: 99px;
+border: 1px solid var(--primary-color);
+filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
+color:var(--primary-color);
+
+
+}
+
+.HaltQueueButton:hover
+{
+    color:var(--primary-color);
+
+}
+
