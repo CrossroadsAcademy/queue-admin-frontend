@@ -1,0 +1,14 @@
+.tab-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+.tab-btn {
+  width: 10.375rem;
+  height: 5rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+}
